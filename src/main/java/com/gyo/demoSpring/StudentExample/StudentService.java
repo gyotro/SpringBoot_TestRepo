@@ -76,7 +76,7 @@ public class StudentService {
                 studAux.setEmail(email);
         }
         else
-            throw new IllegalStateException("Student with id " + studentId + " does nos exist!!");
+            throw new IllegalStateException("Student with id " + studentId + " does not exist!!");
     }
 
     // l'operazione di Save, se è giá esistente, sovrascrive i campi, altrimenti crea
