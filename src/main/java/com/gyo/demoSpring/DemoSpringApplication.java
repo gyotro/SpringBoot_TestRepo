@@ -25,5 +25,7 @@ public class DemoSpringApplication implements CommandLineRunner {
 		Il Controller espone le API e chiama il Service per la logica di Business,
 		il Service chiama il Repository per l'interazione con il DB
 		 */
+		// Per creare il jar eseguire: mvn clean install -DskipTests=true
+
 	}
 }
