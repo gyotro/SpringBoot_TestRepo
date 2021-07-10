@@ -17,4 +17,5 @@ services:
     depends_on:
       - postgresdb
     environment:
+  # la URL del database va scritta in questo modo dovuta al docker e la porta è quella interna al docker
       DATABASE_URL: postgresql://postgresdb:5432/postgres
